@@ -1,0 +1,5 @@
+{
+  "mongo_uri": "mongodb://localhost:27017,localhost:27018,localhost:27019/?replicaSet=rs0&readPreference=primary&ssl=false",
+  "db": "test",
+  "collection_name": "users"
+}
