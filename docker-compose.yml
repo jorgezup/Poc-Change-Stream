@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  mongo1:
+    image: candis/mongo-replica-set
+    ports:
+      - '27017:27017'
+      - '27018:27018'
+      - '27019:27019'
+    restart: always
